@@ -5,8 +5,16 @@
 			<font resource="font_l" color="%text_color%"/>
 		</style>
 
+		<style name="text_xl">
+			<font resource="font_xl" color="%text_color%"/>
+		</style>
+
 		<style name="text_m">
 			<font resource="font_m" color="%text_color%"/>
+		</style>
+
+		<style name="text_xm">
+			<font resource="font_xm" color="%text_color%"/>
 		</style>
 
 		<style name="text_m_accent">
@@ -177,12 +185,12 @@
 		<page name="main2">
 			<template name="page"/>
 
-			<text style="text_l">
+			<text style="text_xl">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
 				<text>{@twrp_header=Team Win Recovery Project}</text>
 			</text>
 
-			<text style="text_m">
+			<text style="text_xm">
 				<condition var1="tw_no_cpu_temp" var2="0"/>
 				<placement x="%col1_x_header%" y="%row4_header_y%"/>
 				<text>%tw_version%</text>

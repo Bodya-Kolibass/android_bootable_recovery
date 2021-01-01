@@ -14,14 +14,16 @@
 	</include>
 
 	<resources>
-		<font name="font_l" filename="RobotoCondensed-Regular.ttf" size="54"/>
-		<font name="font_m" filename="RobotoCondensed-Regular.ttf" size="42"/>
-		<font name="font_s" filename="RobotoCondensed-Regular.ttf" size="36"/>
+		<font name="font_l" filename="RobotoRegular.ttf" size="54"/>
+		<font name="font_xl" filename="RobotoRegular.ttf" size="54"/>
+		<font name="font_m" filename="RobotoRegular.ttf" size="42"/>
+		<font name="font_xm" filename="RobotoRegular.ttf" size="42"/>
+		<font name="font_s" filename="RobotoRegular.ttf" size="36"/>
 		<font name="fixed" filename="DroidSansMono.ttf" size="30"/>
 
-		<font name="keylabel" filename="RobotoCondensed-Regular.ttf" size="64"/>
-		<font name="keylabel-small" filename="RobotoCondensed-Regular.ttf" size="46"/>
-		<font name="keylabel-longpress" filename="RobotoCondensed-Regular.ttf" size="32"/>
+		<font name="keylabel" filename="RobotoRegular.ttf" size="64"/>
+		<font name="keylabel-small" filename="RobotoRegular.ttf" size="46"/>
+		<font name="keylabel-longpress" filename="RobotoRegular.ttf" size="32"/>
 
 		<image name="logo" filename="logo" retainaspect="1"/>
 		<image name="main_button" filename="main_button"/>
@@ -196,7 +198,7 @@
 		<variable name="fileselector_filemanager_height" value="1376"/>
 		<variable name="partitionlist_spacing" value="0"/>
 		<variable name="partitionlist_storage_height" value="544"/>
-		<variable name="partitionlist_flashimage_height" value="544"/>
+		<variable name="partitionlist_flashimage_height" value="768"/>
 		<variable name="partitionlist_wipe_height" value="1088"/>
 		<variable name="partitionlist_mount_height" value="832"/>
 		<variable name="partitionlist_backup_height" value="768"/>
@@ -263,20 +265,20 @@
 
 			<text color="%text_color%">
 				<condition var1="tw_no_cpu_temp" var2="1"/>
-				<font resource="font_m"/>
+				<font resource="font_xm"/>
 				<placement x="%indent%" y="%row1_header_y%"/>
 				<text>%tw_version%</text>
 			</text>
 
 			<text color="%text_color%">
 				<condition var1="tw_no_cpu_temp" var2="0"/>
-				<font resource="font_m"/>
+				<font resource="font_xm"/>
 				<placement x="%indent%" y="%row1_header_y%"/>
 				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
 			</text>
 
 			<text color="%text_color%">
-				<font resource="font_m"/>
+				<font resource="font_xm"/>
 				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
 				<text>%tw_time%</text>
 			</text>
@@ -287,7 +289,7 @@
 					<condition var1="tw_battery" op="&gt;" var2="0"/>
 					<condition var1="tw_battery" op="&lt;" var2="101"/>
 				</conditions>
-				<font resource="font_m"/>
+				<font resource="font_xm"/>
 				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
 				<text>{@battery_pct=Battery: %tw_battery%}</text>
 			</text>
