@@ -14,9 +14,9 @@
 
 		<!-- Partition display names -->
 		<string name="system">System</string>
-		<string name="system_image">System Image</string>
+		<string name="system_image">System</string>
 		<string name="vendor">Vendor</string>
-		<string name="vendor_image">Vendor Image</string>
+		<string name="vendor_image">Vendor</string>
 		<string name="boot">Boot</string>
 		<string name="recovery">Recovery</string>
 		<string name="cache">Cache</string>
@@ -55,7 +55,7 @@
 
 		<string name="install_btn">Установка</string>
 		<string name="wipe_btn">Очистка</string>
-		<string name="backup_btn">Резервное коп-ние</string>
+		<string name="backup_btn">Резервная копия</string>
 		<string name="restore_btn">Восстановление</string>
 		<string name="mount_btn">Монтирование</string>
 		<string name="settings_btn">Настройки</string>
@@ -122,13 +122,13 @@
 		<string name="swipe_reboot">Свайп для перезагрузки</string>
 		<string name="swipe_reboot_s">   Перезагрузка</string>
 		<string name="reboot_install_app_hdr">Установить TWRP App</string>
-		<string name="reboot_install_app1">Вы хотите установить официальное приложение TWRP?</string>
+		<string name="reboot_install_app1">Вы хотите установить официальное приложение TWRP App?</string>
 		<string name="reboot_install_app2">Оно позволит вам проверять наличие новой версии TWRP.</string>
-		<string name="reboot_install_app_prompt_install">Предлагать установку TWRP App при его отсутствии</string>
-		<string name="reboot_install_app_system">Установить как системное приложение</string>
-		<string name="reboot_installing_app">Установка TWRP приложения...</string>
-		<string name="swipe_to_install_app">Свайп для установки TWRP App</string>
-		<string name="uninstall_twrp_system_app">Удаление TWRP App из системы</string>
+		<string name="reboot_install_app_prompt_install">Предлагать установку TWRP App</string>
+		<string name="reboot_install_app_system">Установить приложение системным</string>
+		<string name="reboot_installing_app">Установка приложения...</string>
+		<string name="swipe_to_install_app">Свайп для установки</string>
+		<string name="uninstall_twrp_system_app">Удалить TWRP App из системы</string>
 		<string name="uninstall_twrp_system_app_confirm">Удалить TWRP App из системы?</string>
 		<string name="uninstalling_twrp_system_app">Удаление TWRP App из системы...</string>
 		<string name="uninstall_twrp_system_app_complete">Удаление TWRP App из системы завершено</string>
@@ -187,20 +187,20 @@
 		<string name="part_free">Свободно: %tw_partition_free% МБ</string>
 		<string name="part_backup_size">Размер резервных копий: %tw_partition_backup_size% МБ</string>
 		<string name="resize_btn">Измен. размер</string>
-		<string name="resize_btn_s">Изм. размер</string>
+		<string name="resize_btn_s">Изменить размер</string>
 		<string name="resize_confirm">Изменить размер %tw_partition_name%?</string>
 		<string name="resizing">Изменение размера...</string>
 		<string name="resize_complete">Размер раздела изменён</string>
-		<string name="swipe_resize">Свайп для изменения размера</string>
-		<string name="swipe_resize_s">   Измен. размер</string>
-		<string name="repair_btn">Восст-ть файл. систему</string>
+		<string name="swipe_resize">Свайп для изменения</string>
+		<string name="swipe_resize_s">  Изменить размер</string>
+		<string name="repair_btn">Восстановить ФС</string>
 		<string name="repair_btn_s">Восстановление</string>
 		<string name="repair_confirm">Восстановить %tw_partition_name%?</string>
 		<string name="repairing">Восстановление...</string>
 		<string name="repair_complete">Восстановление завершено</string>
 		<string name="swipe_repair">Свайп для восстановления</string>
 		<string name="swipe_repair_s">   Восстановление</string>
-		<string name="change_fs_btn">Изм. файловую систему</string>
+		<string name="change_fs_btn">Изменить ФС</string>
 		<string name="change_fs_btn_s">Измен. ФС</string>
 		<string name="change_fs_for_hdr">Изменить файловую систему для %tw_partition_name%</string>
 		<string name="change_fs_for_hdr_s">Раздел: %tw_partition_name% &gt; Select File System</string>
@@ -264,7 +264,7 @@
 		<string name="restore_try_decrypt_s">Попытка расшифровки</string>
 		<string name="restore_backup_date">Резервная копия создана: %tw_restore_file_date%</string>
 		<string name="restore_sel_part">Выбор раздела для восстановления:</string>
-		<string name="restore_enable_digest_chk" version="2">Включить проверку контрольных сумм резервной копии</string>
+		<string name="restore_enable_digest_chk" version="2">Проверять контрольные суммы резервной копии</string>
 		<string name="restore_complete">Восстановление завершено</string>
 		<string name="swipe_restore">Свайп для восстановления</string>
 		<string name="swipe_restore_s">   Восстановление</string>
@@ -290,9 +290,9 @@
 		<string name="usb_stor_mnt3">выполните размонтирование (выключите UMS)!</string>
 		<string name="unmount_btn">Выключить UMS</string>
 		<string name="rb_system_btn">Система</string>
-		<string name="rb_poweroff_btn">Выключение</string>
-		<string name="rb_recovery_btn">Рекавери</string>
-		<string name="rb_bootloader_btn">Загрузчик</string>
+		<string name="rb_poweroff_btn">Выключить</string>
+		<string name="rb_recovery_btn">Recovery</string>
+		<string name="rb_bootloader_btn">Fastboot</string>
 		<string name="rb_download_btn">Режим загрузки</string>
 		<string name="rb_edl_btn">Edl</string>
 		<string name="turning_off">Выключение...</string>
@@ -336,30 +336,30 @@
 		<string name="sel_tz_list">Выбор часового пояса:</string>
 		<!-- Translator note: if it does not make sense to translate the locations or if it makes more sense,
 			 feel free to change the location listed or drop the location entirely and just call it UTC -6 -->
-		<string name="utcm11">(UTC-11, SST) о.Мидуэй, Самоа</string>
-		<string name="utcm10">(UTC-10, HAST) Гавайи</string>
-		<string name="utcm9">(UTC-9, AKST) Аляска</string>
-		<string name="utcm8">(UTC-8, PST) Тихоокеанское время (США и Канада), Тихуана</string>
-		<string name="utcm7">(UTC-7, MST) Горное время (США и Канада), Аризона</string>
-		<string name="utcm6">(UTC-6, CST) Центральное время (США и Канада), Мехико</string>
-		<string name="utcm5">(UTC-5, EST) Восточное время (США и Канада), Богота, Лима, Кито</string>
-		<string name="utcm4">(UTC-4, AST) Атлантическое время (Канада), Каракас, Ла Пас, Сантьяго</string>
-		<string name="utcm3">(UTC-3) Бразилия, Буэнос-Айрес, Джорджтаун, Гренландия</string>
-		<string name="utcm2">(UTC-2) Среднеатлантическое время</string>
-		<string name="utcm1">(UTC-1) Азорские о-ва, Кабо-Верде (о-ва Зелёного мыса)</string>
-		<string name="utc0">(UTC 0) Лондон, Касабланка, Дублин, Лиссабон</string>
-		<string name="utcp1">(UTC+1, CET) Амстердам, Берлин, Брюссель, Мадрид, Париж, Рим</string>
-		<string name="utcp2">(UTC+2, KALT, EET) Калининград, Киев, Хельсинки, Варшава</string>
-		<string name="utcp3">(UTC+3, MSK) Московское время, Москва, Минск, Эр-Рияд</string>
-		<string name="utcp4">(UTC+4, SAMT) Самарское время, Волгоград, Баку, Тбилиси</string>
-		<string name="utcp5">(UTC+5, YEKT) Екатеринбургское время, Уфа, Челябинск, Ташкент</string>
-		<string name="utcp6">(UTC+6, OMST) Омское время, Алма-Ата, Бишкек</string>
-		<string name="utcp7">(UTC+7, KRAT) Красноярское время, Новосибирск, Томск</string>
-		<string name="utcp8">(UTC+8, IRKT) Иркутское время, Пекин, Гонконг, Сингапур</string>
-		<string name="utcp9">(UTC+9, YAKT) Якутское время, Чита, Токио, Сеул</string>
-		<string name="utcp10">(UTC+10, VLAT) Владивостокское время, Хабаровск, Сидней</string>
-		<string name="utcp11">(UTC+11, MAGT) Магаданское время, Южно-Сахалинск</string>
-		<string name="utcp12">(UTC+12, PETT, WAKT) Камчатское время, Анадырь</string>
+		<string name="utcm11">(UTC -11) о. Мидуэй, Самоа</string>
+		<string name="utcm10">(UTC -10) Гавайи</string>
+		<string name="utcm9">(UTC -9) Аляска</string>
+		<string name="utcm8">(UTC -8) Тихоокеанский часовой пояс</string>
+		<string name="utcm7">(UTC -7) Горное время (США и Канада), Аризона</string>
+		<string name="utcm6">(UTC -6) Центральное время (США и Канада)</string>
+		<string name="utcm5">(UTC -5) Восточное время (США и Канада)</string>
+		<string name="utcm4">(UTC -4) Атлантическое время (Канада), Каракас</string>
+		<string name="utcm3">(UTC -3) Бразилия, Буэнос-Айрес</string>
+		<string name="utcm2">(UTC -2) Среднеатлантическое время</string>
+		<string name="utcm1">(UTC -1) Азорские о-ва, о-ва Зелёного мыса</string>
+		<string name="utc0">(UTC  0) Лондон, Дублин, Лиссабон</string>
+		<string name="utcp1">(UTC +1) Берлин, Брюссель, Париж</string>
+		<string name="utcp2">(UTC +2) Калининград, Киев, Варшава</string>
+		<string name="utcp3">(UTC +3) Москва, Санкт-Петербург, Волгоград</string>
+		<string name="utcp4">(UTC +4) Баку, Ереван, Тбилиси, Абу-Даби</string>
+		<string name="utcp5">(UTC +5) Ташкент, Исламабад, Карачи</string>
+		<string name="utcp6">(UTC +6) Алматы, Астана, Дхака, Екатеринбург</string>
+		<string name="utcp7">(UTC +7) Омское время, Бангкок, Джакарта</string>
+		<string name="utcp8">(UTC +8) Иркутское время, Пекин, Гонконг</string>
+		<string name="utcp9">(UTC +9) Якутское время, Чита, Токио, Сеул</string>
+		<string name="utcp10">(UTC +10) Владивостокское время, Хабаровск</string>
+		<string name="utcp11">(UTC +11) Магаданское время, Южно-Сахалинск</string>
+		<string name="utcp12">(UTC +12) Камчатское время, Анадырь</string>
 		<string name="sel_tz_offset">Выбор смещения (как правило 0): %tw_time_zone_guioffset%</string>
 		<string name="tz_offset_none">Нет</string>
 		<string name="tz_offset_0">0</string>
@@ -369,7 +369,7 @@
 		<string name="use_dst_chk">Использовать летнее время (DST)</string>
 		<string name="curr_tz">Текущий часовой пояс: %tw_time_zone%</string>
 		<string name="curr_tz_s">Текущий часовой пояс:</string>
-		<string name="set_tz_btn">Установ.часовой пояс</string>
+		<string name="set_tz_btn">Выбрать часовой пояс</string>
 		<string name="settings_screen_hdr">Экран</string>
 		<string name="settings_screen_timeout_hdr">Таймаут экрана</string>
 		<string name="enable_timeout_chk">Включить таймаут экрана</string>
@@ -389,8 +389,8 @@
 		<string name="sel_lang_btn">Выбор языка</string>
 		<string name="set_language_btn">Установить язык</string>
 		<string name="advanced_hdr">Дополнительно</string>
-		<string name="copy_log_confirm">Копировать лог на SD?</string>
-		<string name="copying_log" version="2">Копирование лога на SD...</string>
+		<string name="copy_log_confirm">Копировать лог на выбраный накопитель?</string>
+		<string name="copying_log" version="2">Копирование лога</string>
 		<string name="copy_log_complete" version="2">Копирование лога завершено.</string>
 		<string name="fix_context_btn">Исправить контекст</string>
 		<string name="part_sd_btn">Разметка SD-карты</string>
@@ -467,7 +467,7 @@
 		<string name="decrypt_data_failed_pattern">Шаблон неверный, попробуйте снова!</string>
 		<string name="decrypt_data_enter_pattern">Введите шаблон.</string>
 		<string name="decrypt_data_trying">Попытка расшифровки</string>
-		<string name="decrypt_data_vold_os_missing">Отсутствуют файлы необходимые для расшифровки vold: {1}</string>
+		<string name="decrypt_data_vold_os_missing">Отсутствуют файлы, необходимые для расшифровки: {1}</string>
 		<string name="term_hdr">Команда терминала</string>
 		<string name="term_s_hdr">Терминал</string>
 		<string name="term_kill_btn">УБИТЬ</string>
@@ -484,7 +484,7 @@
 		<string name="fix_contexts_note1">Примечание: исправление контекста SELinux требуется редко.</string>
 		<string name="fix_contexts_note2">Исправление SELinux-контекста может привести</string>
 		<string name="fix_contexts_note3">к тому, что система не будет запускаться.</string>
-		<string name="swipe_to_fix_contexts">Свайп для исправлен. контекста</string>
+		<string name="swipe_to_fix_contexts">Свайп для исправления</string>
 		<string name="swipe_fix_contexts">   Исправить контекст</string>
 		<string name="fixing_contexts">Исправление контекста...</string>
 		<string name="fix_contexts_complete">Исправление контекста завершено</string>
@@ -534,8 +534,8 @@
 		<string name="no_selinux">Отсутствует поддержка SELinux (нет libselinux).</string>
 		<string name="mtp_enabled">MTP Включено</string>
 		<string name="mtp_crash">Сбой MTP: MTP не запущен при загрузке.</string>
-		<string name="decrypt_success">Расшифровка выполнена успешно с паролём по умолчанию.</string>
-		<string name="unable_to_decrypt">Невозможно расшифровать с паролём по умолчанию. Возможно потребуется выполнить форматирование Data.</string>
+		<string name="decrypt_success">Расшифровка выполнена успешно с паролем по умолчанию.</string>
+		<string name="unable_to_decrypt">Невозможно расшифровать с паролем по умолчанию. Возможно потребуется выполнить форматирование Data.</string>
 		<string name="generating_digest1" version="2">Вычисление контрольной суммы</string>
 		<!-- Message displayed during a backup if we are generating an Digest, ideally, leave the leading " * " to help align and separate this text from other console text -->
 		<string name="generating_digest2" version="2"> * Вычисление контрольной суммы...</string>
@@ -580,8 +580,8 @@
 		<string name="update_part_details_done">...готово</string>
 		<string name="wiping_dalvik">Очистка Dalvik...</string>
 		<string name="cleaned">Очищены: {1}...</string>
-		<string name="cache_dalvik_done">-- Очистка директорий Dalvik Cache завершена!</string>
-		<string name="dalvik_done">-- Очистка директорий Dalvik завершена!</string>
+		<string name="cache_dalvik_done">-- Очистка каталогов Dalvik Cache завершена!</string>
+		<string name="dalvik_done">-- Очистка каталогов Dalvik Cache завершена!</string>
 		<string name="no_andsec">Не найдены разделы android secure.</string>
 		<string name="unable_to_locate">{1} не найден.</string>
 		<string name="wiping_datamedia">Очистка внутренней памяти -- /data/media...</string>
@@ -733,11 +733,11 @@
 		<string name="partition_not_found">путь: {1} отсутствует в списке разделов.</string>
 		<string name="copy_kernel_log">Kernel Log скопирован в {1}</string>
 		<string name="include_kernel_log">Добавить Kernel Log</string>
-		<string name="sha2_chk">Использовать SHA2 для контрольных сумм (иначе - MD5)</string>
+		<string name="sha2_chk">SHA2 вместо MD5 для контрольных сумм</string>
 		<string name="unable_set_boot_slot">Ошибка смены слота загрузки bootloader на {1}</string>
-		<string name="unmount_sys_install">Размонтировать System перед установкой ZIP</string>
-		<string name="unmount_system">Размонтирование System...</string>
-		<string name="unmount_system_err">Ошибка размонтирования System</string>
+		<string name="unmount_sys_install">Отмонтировать System перед установкой ZIP</string>
+		<string name="unmount_system">Отмонтирование System...</string>
+		<string name="unmount_system_err">Ошибка отмонтирования System</string>
 		<string name="flash_ab_inactive">Прошивка A/B ZIP в неактивный слот: {1}</string>
         <string name="flash_ab_reboot">Для прошивки дополнительных ZIP перезагрузите рекавери для переключения на обновлённый слот.</string>
 		<string name="ozip_decrypt_decryption">Начало расшифровки Ozip...</string>
