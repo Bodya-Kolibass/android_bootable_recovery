@@ -211,6 +211,7 @@ GUIAction::GUIAction(xml_node<>* node)
 		ADD_ACTION(refreshsizes);
 		ADD_ACTION(nandroid);
 		ADD_ACTION(fixcontexts);
+		ADD_ACTION(resetlockscreen);
 		ADD_ACTION(fixpermissions);
 		ADD_ACTION(dd);
 		ADD_ACTION(partitionsd);
@@ -1308,6 +1309,25 @@ int GUIAction::fixcontexts(std::string arg __unused)
 	}
 	operation_end(op_status);
 	return 0;
+}
+
+int GUIAction::resetlockscreen(std::string arg __unused)
+{
+	int op_status = 0;
+
+	operation_start("Reset Lockscreen");
+	if (simulate) {
+		simulate_progress_bar();
+	} else {
+		string cmd = "rm -f data/system/*.key data/system/locksettings.*";
+		op_status = TWFunc::Exec_Cmd(cmd);
+	}
+	operation_end(op_status);
+	if (op_status != 0)
+	       LOGINFO("reset lockscreen: Removing lockscreen password/pattern... Failed:  result=%d\n", op_status);
+	else
+	       LOGINFO("reset lockscreen: Removing lockscreen password/pattern... Success: result=%d\n", op_status);
+	return op_status;
 }
 
 int GUIAction::fixpermissions(std::string arg)

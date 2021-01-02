@@ -12,6 +12,16 @@
 		<resource filename="RobotoRegular.ttf" name="font_s" scale="90" type="fontoverride"/>
 		<resource filename="DroidSansMono.ttf" name="fixed" scale="100" type="fontoverride"/>
 
+		<!-- Reset Lockscreen function strings -->
+		<string name="reset_lockscreen_btn">Удаление паролей экрана блокировки</string>
+		<string name="reset_lockscreen_hdr">Удаление паролей экрана блокировки</string>
+		<string name="reset_lockscreen_note1">Если после восстановления резервной копии</string>
+		<string name="reset_lockscreen_note2">ваш предыдущий пароль, пин или графический ключ</string>
+		<string name="reset_lockscreen_note3">не подходят - выполните удаление.</string>
+		<string name="swipe_to_reset_lockscreen">Свайп для удаления</string>
+		<string name="resetting_lockscreen">Удаление паролей экрана блокировки...</string>
+		<string name="reset_lockscreen_complete">Удаление паролей экрана блокировки завершено</string>
+
 		<!-- Partition display names -->
 		<string name="system">System</string>
 		<string name="system_image">System</string>

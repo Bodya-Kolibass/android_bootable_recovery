@@ -3629,6 +3629,9 @@
 					<condition var1="tw_has_data_media" var2="1"/>
 					<action function="page">fixcontexts</action>
 				</listitem>
+				<listitem name="{@reset_lockscreen_btn=Reset Lockscreen}">
+					<action function="page">resetlockscreen</action>
+				</listitem>
 				<listitem name="{@dumlock_btn=HTC Dumlock}">
 					<condition var1="tw_show_dumlock" var2="1"/>
 					<action function="page">htcdumlock</action>
@@ -5025,6 +5028,58 @@
 					<action function="set">tw_action=fixcontexts</action>
 					<action function="set">tw_action_text1={@fixing_contexts=Fixing Contexts...}</action>
 					<action function="set">tw_complete_text1={@fix_contexts_complete=Fix Contexts Complete}</action>
+					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
+					<action function="set">tw_show_reboot=1</action>
+					<action function="page">action_page</action>
+				</actions>
+			</slider>
+
+			<action>
+				<touch key="home"/>
+				<action function="page">main</action>
+			</action>
+
+			<action>
+				<touch key="back"/>
+				<action function="page">advanced</action>
+			</action>
+		</page>
+
+		<page name="resetlockscreen">
+			<template name="page"/>
+
+			<text style="text_l">
+				<placement x="%col1_x_header%" y="%row3_header_y%"/>
+				<text>{@advanced_hdr=Advanced}</text>
+			</text>
+
+			<text style="text_m">
+				<placement x="%col1_x_header%" y="%row4_header_y%"/>
+				<text>{@reset_lockscreen_hdr=Reset Lockscreen}</text>
+			</text>
+
+			<text style="text_m_accent">
+				<placement x="%center_x%" y="%row6_y%" placement="5"/>
+				<text>{@reset_lockscreen_note1=If you cannot pass Lockscreen security}</text>
+			</text>
+
+			<text style="text_m_accent">
+				<placement x="%center_x%" y="%row7_y%" placement="5"/>
+				<text>{@reset_lockscreen_note2=after backup restore you should do this.}</text>
+			</text>
+
+			<text style="text_m_accent">
+				<placement x="%center_x%" y="%row8_y%" placement="5"/>
+				<text>{@reset_lockscreen_note3=}</text>
+			</text>
+
+			<slider>
+				<text>{@swipe_to_reset_lockscreen=Swipe to Reset Lockscreen}</text>
+				<actions>
+					<action function="set">tw_back=advanced</action>
+					<action function="set">tw_action=resetlockscreen</action>
+					<action function="set">tw_action_text1={@resetting_lockscreen=Resetting Lockscreen...}</action>
+					<action function="set">tw_complete_text1={@reset_lockscreen_complete=Reset Lockscreen Complete}</action>
 					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
 					<action function="set">tw_show_reboot=1</action>
 					<action function="page">action_page</action>
