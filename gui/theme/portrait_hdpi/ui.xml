@@ -267,7 +267,7 @@
 				<condition var1="tw_no_cpu_temp" var2="1"/>
 				<font resource="font_xm"/>
 				<placement x="%indent%" y="%row1_header_y%"/>
-				<text>%tw_version%</text>
+				<text>%tw_version% (MIUI Mode)</text>
 			</text>
 
 			<text color="%text_color%">

@@ -752,5 +752,11 @@
         <string name="flash_ab_reboot">Для прошивки дополнительных ZIP перезагрузите рекавери для переключения на обновлённый слот.</string>
 		<string name="ozip_decrypt_decryption">Начало расшифровки Ozip...</string>
 		<string name="ozip_decrypt_finish">Расшифровка Ozip завершена!</string>
+		<string name="repack_btn">Сменить режим</string>
+		<string name="MIUI Mode">Режим MIUI</string>
+		<string name="Custom Mode">Режим Custom</string>
+		<string name="repack_confirm">Вы действительно хотите изменить режим?</string>
+		<string name="repack_confirm2">Это действие изменит режим c MIUI на CUSTOM</string>
+		<string name="repack_confirm3">(или наоборот) и перезагрузит recovery.</string>		
 	</resources>
 </language>

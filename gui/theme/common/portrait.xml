@@ -193,7 +193,7 @@
 			<text style="text_xm">
 				<condition var1="tw_no_cpu_temp" var2="0"/>
 				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>%tw_version%</text>
+				<text>%tw_version% (MIUI Mode)</text>
 			</text>
 
 			<button style="main_button">
@@ -3228,6 +3228,22 @@
 					<data variable="tw_unmount_system"/>
 				</listitem>
 			</listbox>
+
+			<button style="main_button_half_height">
+				<placement x="%indent%" y="%row21a_y%"/>
+				<text>{@repack_btn=Change Mode}</text>
+				<actions>
+					<action function="set">tw_back=settings</action>
+					<action function="set">tw_filename=/sbin/repac_k</action>
+					<action function="set">tw_action=cmd</action>
+					<action function="set">tw_action_param=sh "%tw_filename%"</action>
+					<action function="set">tw_text1={@repack_confirm=Do you really want to change mode?}</action>
+					<action function="set">tw_text3={@repack_confirm2=This action will change the mode from MIUI to CUSTOM}</action>
+					<action function="set">tw_text4={@repack_confirm3=(or backward) and restart the recovery.}</action>
+					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
 
 			<button style="main_button_half_height">
 				<placement x="%center_x%" y="%row21a_y%"/>

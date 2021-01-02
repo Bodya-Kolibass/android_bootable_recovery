@@ -753,5 +753,11 @@
 		<string name="flash_ab_reboot">To flash additional zips, please reboot recovery to switch to the updated slot.</string>
 		<string name="ozip_decrypt_decryption">Starting Ozip Decryption...</string>
 		<string name="ozip_decrypt_finish">Ozip Decryption Finished!</string>
+		<string name="repack_btn">Change Mode</string>
+		<string name="MIUI Mode">MIUI Mode</string>
+		<string name="Custom Mode">Custom Mode</string>
+		<string name="repack_confirm">Do you really want to change mode?</string>
+		<string name="repack_confirm2">This action will change the mode from MIUI to CUSTOM</string>
+		<string name="repack_confirm3">(or backward) and restart the recovery.</string>
 	</resources>
 </language>
